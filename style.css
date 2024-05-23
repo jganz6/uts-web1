@@ -1,0 +1,106 @@
+.p1 {
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
+   color: red; 
+}
+.p2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green; 
+ }
+ /* table custom */
+.cust-table {
+   text-align: center;
+   font-family: Arial;
+   border: none;
+   border-collapse: collapse;
+   background-color: #F7F7F7;
+}
+.cust-table td , th{
+   padding: 10px;
+}
+.cust-table thead > tr >th{
+   border: none;
+}
+.cust-table thead tr th{
+   margin: 0;
+   color: #fff;
+}
+.cust-table > thead > tr > th:nth-child(1){
+   background-color: #1DB3C1;
+   border-radius: 10px 0 0 0;
+}
+.cust-table > thead > tr > th:nth-child(2){
+   background-color: #405465;
+}
+.cust-table > thead > tr > th:nth-child(3){
+   background-color: #EE5C22;
+   border-radius: 0 10px 0 0;
+}
+.cust-table > tbody > tr > td:nth-child(1){
+   color: #1DB3C1;
+   border-right: 2px solid #d9d9d9;
+   border-bottom: 2px solid #1DB3C1;
+}
+.cust-table > tbody > tr > td:nth-child(2){
+   color: #405465;
+   border-right: 2px solid #d9d9d9;
+   border-bottom: 2px solid #405465;
+}
+.cust-table > tbody > tr > td:nth-child(3){
+   color: #EE5C22;
+   border-right: 2px solid #d9d9d9;
+   border-bottom: 2px solid #EE5C22;
+}
+.cust-table > tbody > tr:nth-child(1) > td{
+   border-bottom: none;
+}
+.cust-table > tfoot > tr > td > button {
+   color: #fff;
+   border-radius: 10px;
+   border: none;
+   padding: 10px;
+   font-size: 8pt;
+}
+.cust-table > tfoot > tr > td:nth-child(1) > button{
+   background-color: #1DB3C1;
+}
+.cust-table > tfoot > tr > td:nth-child(2) > button{
+   background-color: #405465;
+}
+.cust-table > tfoot > tr > td:nth-child(3) > button{
+   background-color: #EE5C22;
+}
+.cust-table > tfoot > tr > td{
+   border-top: none;
+}
+.cust-table > tfoot > tr > td:nth-child(1) {
+   border-right: 2px solid #d9d9d9;
+   border-bottom : 2px solid #d9d9d9;
+   border-radius: 0 0 0 10px;
+}
+.cust-table > tfoot > tr > td:nth-child(2) {
+   border-right: 2px solid #d9d9d9;
+   border-bottom : 2px solid #d9d9d9;
+}
+.cust-table > tfoot > tr > td:nth-child(3) {
+   border-right: 2px solid #d9d9d9;
+   border-radius: 0 0 10px 0;
+   border-bottom : 2px solid #d9d9d9;
+}
+/* Price Tag */
+.pricetag {
+   display: flex;
+}
+.pricetag *{
+   margin: 0;
+   padding: 0;
+   font-weight: bold;
+}
+.pricetag > div:nth-child(1) > span{
+   font-size: 22pt;
+   padding: 0;
+}
+.pricetag > div:nth-child(2){
+   padding-top: 3px;
+   font-size: 9pt;
+}
